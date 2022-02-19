@@ -1,0 +1,242 @@
+[
+  {
+    "progressBarId": 1,
+    "progressBarName": "Guitar",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "Basics",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "Practice Guitar for 1 month everyday",
+        "progressPercent": 45
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "Create Some music from scratch",
+        "progressPercent": 60
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "Able to play Guitar without thinking when emotional",
+        "progressPercent": 85
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "Immersion in music",
+        "progressPercent": 100
+      }
+    ]
+  },
+  {
+    "progressBarId": 2,
+    "progressBarName": "Vocal",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "Month 1 completed",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "Month 2 completed",
+        "progressPercent": 30
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "Month 3 completed",
+        "progressPercent": 40
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "Month 4 completed",
+        "progressPercent": 55
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "Month 5 completed",
+        "progressPercent": 65
+      },
+      {
+        "progressBarPartitionKey": 5,
+        "progressHeading": "Month 6 completed",
+        "progressPercent": 75
+      },
+      {
+        "progressBarPartitionKey": 6,
+        "progressHeading": "Month 7 completed",
+        "progressPercent": 80
+      },
+      {
+        "progressBarPartitionKey": 7,
+        "progressHeading": "Month 8 completed",
+        "progressPercent": 90
+      },
+      {
+        "progressBarPartitionKey": 8,
+        "progressHeading": "Month 9 completed",
+        "progressPercent": 100
+      }
+    ]
+  },
+  {
+    "progressBarId": 3,
+    "progressBarName": "Programming",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "Electronics basics [gates and chip programming]",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "[1 week] Computer Architecture",
+        "progressPercent": 30
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "[1 week] Mathematics",
+        "progressPercent": 45
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "[1 week] Java + Data Structure and Algorithms + Mathematics",
+        "progressPercent": 60
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "[1 week] Logical Reasoning",
+        "progressPercent": 85
+      },
+      {
+        "progressBarPartitionKey": 5,
+        "progressHeading": "[1 month] Project Notebook",
+        "progressPercent": 100
+      }
+    ]
+  },
+  {
+    "progressBarId": 4,
+    "progressBarName": "Books Reading",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "The Art of Seduction",
+        "progressPercent": 10
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "Aghora 1",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "2 books on psychology + Sapiens",
+        "progressPercent": 30
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "Body language by Barbara",
+        "progressPercent": 40
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "Astronomy directory",
+        "progressPercent": 65
+      },
+      {
+        "progressBarPartitionKey": 5,
+        "progressHeading": "Accounts + articles on leverage",
+        "progressPercent": 70
+      },
+      {
+        "progressBarPartitionKey": 6,
+        "progressHeading": "Sales & Marketing",
+        "progressPercent": 75
+      },
+      {
+        "progressBarPartitionKey": 7,
+        "progressHeading": "Aghora 2",
+        "progressPercent": 80
+      },
+      {
+        "progressBarPartitionKey": 8,
+        "progressHeading": "The Art of War",
+        "progressPercent": 90
+      },
+      {
+        "progressBarPartitionKey": 9,
+        "progressHeading": "48 Laws of Power",
+        "progressPercent": 95
+      },
+      {
+        "progressBarPartitionKey": 10,
+        "progressHeading": "The 50th law",
+        "progressPercent": 100
+      }
+    ]
+  },
+  {
+    "progressBarId": 5,
+    "progressBarName": "Physical Fitness",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "Month Feb completed",
+        "progressPercent": 10
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "Month Mar completed",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "Month Apr completed",
+        "progressPercent": 30
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "Month May completed",
+        "progressPercent": 40
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "Month Jun completed",
+        "progressPercent": 65
+      },
+      {
+        "progressBarPartitionKey": 5,
+        "progressHeading": "Month Jul completed",
+        "progressPercent": 70
+      },
+      {
+        "progressBarPartitionKey": 6,
+        "progressHeading": "Month Aug completed",
+        "progressPercent": 75
+      },
+      {
+        "progressBarPartitionKey": 7,
+        "progressHeading": "Month Sep completed",
+        "progressPercent": 80
+      },
+      {
+        "progressBarPartitionKey": 8,
+        "progressHeading": "Month Oct completed",
+        "progressPercent": 90
+      },
+      {
+        "progressBarPartitionKey": 9,
+        "progressHeading": "Month Nov completed",
+        "progressPercent": 95
+      },
+      {
+        "progressBarPartitionKey": 10,
+        "progressHeading": "Month Dev completed",
+        "progressPercent": 100
+      }
+    ]
+  }
+]
