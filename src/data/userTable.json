@@ -1,0 +1,126 @@
+[{
+  "userId": "countrycode",
+  "isOnline": false,
+  "isPremiumUser": false,
+  "typeOfMembership": ["1 daily", "2 weekly", "3 monthly", "4 quaterly", "5 half yearly", "6 yearly"],
+  "currentLevelOutOfTen": 1,
+  "username": "uniqueUser",
+  "firstName": "abc",
+  "lastName": "def",
+  "fullName": "firstname + lastname",
+  "email": "abcdef@domain.com",
+  "password": "encrypted using salt-hash or hash",
+  "dob": "",
+  "occupation": [
+    "Student",
+    "Teacher",
+    "Engineer",
+    "Politician [Government Entity",
+    "Private Sector",
+    "Public Sector",
+    "Government Job",
+    "Spiritual Guru",
+    "Businessman/Enterpreneur",
+    "On a Journey"
+  ],
+  "sex": ["male", "female", "LGBTQ+"],
+  "address": [{
+    "residence": "current living place",
+    "city": "",
+    "state": "",
+    "country": "",
+    "postalCode": ""
+  }],
+  "location": "",
+  "contact": "user's contact for OTP varification and login",
+
+  "google": ["some google info"],
+  "facebook": ["some facebook info"],
+  "github": ["some github info"],
+  "linkedIn": ["some linkedIn info"],
+  "quora": ["some quora info"],
+  "twitter": ["some twitter info"],
+  "instagram": ["some instagram info"],
+  "pinterest": ["some pinterest info"],
+
+  "adidasRunningExportedData": [{}],
+
+  "userCreated": "2021-01-12T12:08:04Z",
+  "userUpdated": "2022-02-19T12:56:54Z",
+  "followers": "",
+  "following": "",
+
+  "checkInStreak": 0,
+  "lastCheckIn": "last date",
+  "noOfBrokenStreaks": 0,
+  "lifeAim": ["Singer", "Actor", "Engineer", "Government Job", "Enterpreneur", "etc"],
+  "isDeleted": false,
+  "isDeactivated": false,
+
+  "noOfActivities": 0,
+  "AllActivities": [{
+    "progressBarId": 5,
+    "progressBarName": "Physical Fitness",
+    "progressBar": [
+      {
+        "progressBarPartitionKey": 0,
+        "progressHeading": "Month Feb completed",
+        "progressPercent": 10
+      },
+      {
+        "progressBarPartitionKey": 1,
+        "progressHeading": "Month Mar completed",
+        "progressPercent": 15
+      },
+      {
+        "progressBarPartitionKey": 2,
+        "progressHeading": "Month Apr completed",
+        "progressPercent": 30
+      },
+      {
+        "progressBarPartitionKey": 3,
+        "progressHeading": "Month May completed",
+        "progressPercent": 40
+      },
+      {
+        "progressBarPartitionKey": 4,
+        "progressHeading": "Month Jun completed",
+        "progressPercent": 65
+      },
+      {
+        "progressBarPartitionKey": 5,
+        "progressHeading": "Month Jul completed",
+        "progressPercent": 70
+      },
+      {
+        "progressBarPartitionKey": 6,
+        "progressHeading": "Month Aug completed",
+        "progressPercent": 75
+      },
+      {
+        "progressBarPartitionKey": 7,
+        "progressHeading": "Month Sep completed",
+        "progressPercent": 80
+      },
+      {
+        "progressBarPartitionKey": 8,
+        "progressHeading": "Month Oct completed",
+        "progressPercent": 90
+      },
+      {
+        "progressBarPartitionKey": 9,
+        "progressHeading": "Month Nov completed",
+        "progressPercent": 95
+      },
+      {
+        "progressBarPartitionKey": 10,
+        "progressHeading": "Month Dev completed",
+        "progressPercent": 100
+      }
+    ]
+  }],
+
+  "mobileOtherAppsUsage": [],
+  "totalTimeSpentOnthisWebsite": "in seconds",
+  "totalTimeSpentOnthisApp": "in seconds"
+}]
