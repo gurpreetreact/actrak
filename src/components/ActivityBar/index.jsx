@@ -13,7 +13,9 @@ const ActivityBar = ({ data }) => {
           {data.progressBar.map((datum) => (
             <Fragment key={datum.progressBarPartitionKey}>
               <div
+                id={datum.progressBarPartitionKey}
                 className='checkpoint'
+                title={datum.progressHeading}
                 style={{
                   width: `${datum.progressPercent - 0.5}%`,
                   borderWidth: '0px',
@@ -22,6 +24,7 @@ const ActivityBar = ({ data }) => {
               >
                 |
               </div>
+              <label className='checkpointLabel' htmlFor={datum.progressBarPartitionKey}>{datum.progressHeading}</label>
             </Fragment>
           ))}
         </div>

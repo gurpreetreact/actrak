@@ -1,5 +1,5 @@
 .ProgressBarContainer {
-  width: 50%;
+  width: 80%;
   background-color: #ddd;
   position: relative;
   border: 2px solid black;
@@ -26,4 +26,11 @@
 
 .checkpoint {
   // position: absolute;
+}
+
+.checkpointLabel {
+  display: none;
+  :hover {
+    display: block;
+  }
 }
