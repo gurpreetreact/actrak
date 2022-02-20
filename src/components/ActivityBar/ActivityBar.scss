@@ -1,0 +1,29 @@
+.ProgressBarContainer {
+  width: 50%;
+  background-color: #ddd;
+  position: relative;
+  border: 2px solid black;
+  height: 20px;
+}
+  
+.ProgressBar {
+  width: 10%;
+  height: 20px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  position: absolute;
+}
+
+.checkpointsContainer {
+  z-index: 9;
+  width: 100%;
+  display: flex;
+  // background: inherit;
+  position: absolute;
+}
+
+.checkpoint {
+  // position: absolute;
+}
