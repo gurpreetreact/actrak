@@ -1,20 +1,17 @@
 import React, { Fragment } from 'react';
 import './ActivitiesPage.scss';
 import ActivityBar from '../../components/ActivityBar';
-import progressBars from '../../data/activitydata.json';
+import userInfo from '../../data/userTable.json';
 
 const ActivitiesPage = () => {
-  
   return (
     <Fragment>
-      <div className='pageContainer'>
-        <div className='leftHalfContainer'>
-
-        </div>
-        <div className='RightHalfContainer'>
-          {progressBars.map(singleBar => (
-            <ActivityBar key={singleBar.progressBarId} data={singleBar} />
-          ))}
+      <div className='ap__container'>
+        <div className="ap__pageContainer">
+          <div className="ap__leftHalfContainer"></div>
+          <div className="ap__RightHalfContainer">
+            <ActivityBar data={userInfo} />
+          </div>
         </div>
       </div>
     </Fragment>

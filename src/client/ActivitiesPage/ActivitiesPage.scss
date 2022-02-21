@@ -1,12 +1,25 @@
-.pageContainer {
+.ap__container {
+  // height: 100vh;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+}
+.ap__pageContainer {
   display: flex;
+  // height: 100vh;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+  // border: 10px solid black;
+  font-size: 8vh;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-.leftHalfContainer {
+.ap__leftHalfContainer {
   flex: 1;
 }
 
-.RightHalfContainer {
+.ap__RightHalfContainer {
   flex: 1;
 }
 

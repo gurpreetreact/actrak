@@ -1,22 +1,24 @@
-.ProgressBarContainer {
+.ab__ProgressBarContainer {
   width: 80%;
   background-color: #ddd;
   position: relative;
-  border: 2px solid black;
-  height: 20px;
+  border: 6px solid black;
+  height: 60px;
+  font-size: 6vh !important;
 }
   
-.ProgressBar {
+.ab__ProgressBar {
   width: 10%;
-  height: 20px;
-  background-color: #4CAF50;
+  height: 60px;
+  // background-color: #4CAF50;
+  background-color: #3EB650;
   text-align: center;
   line-height: 32px;
   color: black;
   position: absolute;
 }
 
-.checkpointsContainer {
+.ab__checkpointsContainer {
   z-index: 9;
   width: 100%;
   display: flex;
@@ -24,11 +26,12 @@
   position: absolute;
 }
 
-.checkpoint {
+.ab__checkpoint {
+  margin: -6px 0px;
   // position: absolute;
 }
 
-.checkpointLabel {
+.ab__checkpointLabel {
   display: none;
   :hover {
     display: block;

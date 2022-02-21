@@ -20,10 +20,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "kill -9 $(lsof -t -i:3000) && concurrently --kill-others \"npm start\"",
+    "dev": "concurrently --kill-others \"npm start\"",
+    "devkill": "kill -9 $(lsof -t -i:3000) && concurrently --kill-others \"npm start\"",
     "build": "react-scripts build",
     "fix:js": "yarn run lint:js --fix",
-    "lint:css": "stylelint \"src/**/*.{css,less,styl,scss,sass,sss}\"",
+    "lint:css": "prettier-stylelint --write \"src/**/*.{css,less,styl,scss,sass,sss}\"",
     "lint:js": "eslint \"src/**/*.{js,jsx}\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "eslint": "^8.9.0",
-    "eslint-plugin-react": "^7.28.0"
+    "eslint-plugin-react": "^7.28.0",
+    "prettier-stylelint": "^0.4.2"
   }
 }
