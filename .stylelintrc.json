@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "number-max-precision": [
+      2,
+      {
+        "ignoreUnits": ["em"],
+        "severity": "warning"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.scss", "**/*.scss"],
+      "customSyntax": "postcss-scss"
+    },
+    {
+      "files": ["components/**/*.css", "pages/**/*.css"]
+      
+    }
+  ]
+}
