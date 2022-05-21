@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ActivitiesPage from '../client/ActivitiesPage';
-import HomePage from '../client/HomePage';
+import { HomePage } from '../client/home';
+import { ActivitiesManager } from '../client/activityTracker';
 
 const routes = () => {
   return (
@@ -10,7 +10,7 @@ const routes = () => {
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/home' element={<HomePage />} />
-          <Route path='/activitytracker' element={<ActivitiesPage />} />
+          <Route path='/activitytracker' element={<ActivitiesManager />} />
         </Routes>
       </Router>
     </Fragment>

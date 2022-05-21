@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import './ActivitiesPage.scss';
-import ActivityBar from '../../components/ActivityBar';
-import userInfo from '../../data/userTable.json';
+import './ActivitiesManager.scss';
+import ActivityBar from '../../../components/ActivityBar';
+import userInfo from '../../../data/userTable.json';
 
-const ActivitiesPage = () => {
+const ActivitiesManager = () => {
   return (
     <Fragment>
       <div className='ap__container'>
@@ -18,4 +18,4 @@ const ActivitiesPage = () => {
   );
 };
 
-export default ActivitiesPage;
+export default ActivitiesManager;

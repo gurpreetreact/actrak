@@ -1,4 +1,6 @@
 {
+  "productName": "Activity Tracker",
+  "main": "electron/main.js",
   "name": "actrak",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +21,10 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "start:svelte": "electron --disable-gpu --disable-software-rasterizer  .",
+    "start-electron": "electron .",
     "start": "react-scripts start",
-    "dev": "concurrently --kill-others \"npm start\"",
+    "dev": "export BROWSER=none && concurrently --kill-others \"npm start\"",
     "devkill": "kill -9 $(lsof -t -i:3000) && concurrently --kill-others \"npm start\"",
     "build": "react-scripts build",
     "fix:js": "yarn run lint:js --fix",

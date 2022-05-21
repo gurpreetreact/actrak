@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { useNavigate } from 'react-router';
-import AddActivity from '../AddActivity';
+// import AddActivity from '../../activityTracker/ActivitiesManager';
 import './HomePage.scss';
-import skull from '../../assets/images/logo512.png';
-import backgroundImage from '../../assets/images/background.jpg';
+import skull from '../../../assets/images/logo512.png';
+import backgroundImage from '../../../assets/images/background.jpg';
 
 const HomePage = () => {
   let navigate = useNavigate();
@@ -30,7 +30,7 @@ const HomePage = () => {
             Track the activity page
           </button>
         </div>
-        <AddActivity />
+        {/* <AddActivity /> */}
       </div>
     </Fragment>
   );
